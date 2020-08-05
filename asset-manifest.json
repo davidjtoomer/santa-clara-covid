@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/santa-clara-covid/static/css/main.5bd63142.chunk.css",
+    "main.js": "/santa-clara-covid/static/js/main.620dd999.chunk.js",
+    "main.js.map": "/santa-clara-covid/static/js/main.620dd999.chunk.js.map",
+    "runtime-main.js": "/santa-clara-covid/static/js/runtime-main.9f2c59df.js",
+    "runtime-main.js.map": "/santa-clara-covid/static/js/runtime-main.9f2c59df.js.map",
+    "static/js/2.86ac6c28.chunk.js": "/santa-clara-covid/static/js/2.86ac6c28.chunk.js",
+    "static/js/2.86ac6c28.chunk.js.map": "/santa-clara-covid/static/js/2.86ac6c28.chunk.js.map",
+    "index.html": "/santa-clara-covid/index.html",
+    "precache-manifest.0f4fe0e179a461779b232f3375ddc65b.js": "/santa-clara-covid/precache-manifest.0f4fe0e179a461779b232f3375ddc65b.js",
+    "service-worker.js": "/santa-clara-covid/service-worker.js",
+    "static/css/main.5bd63142.chunk.css.map": "/santa-clara-covid/static/css/main.5bd63142.chunk.css.map",
+    "static/js/2.86ac6c28.chunk.js.LICENSE.txt": "/santa-clara-covid/static/js/2.86ac6c28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f2c59df.js",
+    "static/js/2.86ac6c28.chunk.js",
+    "static/css/main.5bd63142.chunk.css",
+    "static/js/main.620dd999.chunk.js"
+  ]
+}
