@@ -1,11 +1,10 @@
 import {LOADING_START, LOADING_END, FETCH_DATA} from './types';
 
-const initialState = {
-  loading: false,
-  data: null
+const initialBaseState = {
+  loading: false
 };
 
-export const baseReducer = (state = initialState, action) => {
+export const baseReducer = (state = initialBaseState, action) => {
   switch (action.type) {
     case LOADING_START:
       return {
@@ -22,7 +21,11 @@ export const baseReducer = (state = initialState, action) => {
   }
 }
 
-export const dataReducer = (state = initialState, action) => {
+const initialDataState = {
+  data: null
+}
+
+export const dataReducer = (state = initialDataState, action) => {
   switch (action.type) {
     case FETCH_DATA: 
       return {
