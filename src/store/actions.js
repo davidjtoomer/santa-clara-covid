@@ -20,12 +20,11 @@ export const fetchData = () => dispatch => {
       limit: 1000
     }
   })
-    .then(response => response.result.records)
-    .then(records => {
-      console.log(records);
+    .then(response => {
+      console.log(response.data);
       dispatch({
         type: FETCH_DATA,
-        payload: records
+        payload: response.data.result.records
       });
     })
     .catch(error => {
