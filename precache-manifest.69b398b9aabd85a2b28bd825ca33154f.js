@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a5a4a6a0da69a506a656d7bf4888b51",
+    "revision": "7eca47a31b3e22bfe709a84e860586bd",
     "url": "/santa-clara-covid/index.html"
   },
   {
-    "revision": "01bc365a015f45953549",
+    "revision": "8d34627d70f7031dde9d",
     "url": "/santa-clara-covid/static/css/main.6c4b0fc2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/santa-clara-covid/static/js/2.bce6e8cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01bc365a015f45953549",
-    "url": "/santa-clara-covid/static/js/main.4b6730a8.chunk.js"
+    "revision": "8d34627d70f7031dde9d",
+    "url": "/santa-clara-covid/static/js/main.2731ea70.chunk.js"
   },
   {
     "revision": "81339f9d19c458ea2581",
