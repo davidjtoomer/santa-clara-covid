@@ -6,6 +6,6 @@ const NavbarButton = (props) => (
       <button>{props.text}</button>
     </a>
   </div>
-)
+);
 
 export default NavbarButton;

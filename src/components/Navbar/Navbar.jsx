@@ -16,7 +16,8 @@ const Navbar = () => {
         <NavbarButton
           text = 'Data' 
           href = 'https://data.ca.gov/dataset/covid-19-cases'
-          target = '_blank'/>
+          target = '_blank'
+        />
         <NavbarButton
           text = 'Source Code'
           href = 'https://github.com/davidjtoomer/santa-clara-covid'
@@ -24,7 +25,7 @@ const Navbar = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar;

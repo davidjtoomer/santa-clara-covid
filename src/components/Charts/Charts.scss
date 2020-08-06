@@ -1,0 +1,55 @@
+@import '../../global';
+
+.charts {
+  width: 100%;
+  background: $secondary-dark-color;
+  margin: 2rem 4rem;
+
+  .time-charts {
+    width: 100%;
+
+    .cases-chart-container {
+      width: 100%;
+  
+      .cases-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .cases-chart {
+        padding: 2rem;
+  
+        canvas {
+          width: 100% !important;
+        }
+      }
+    }
+
+    .deaths-chart-container {
+      width: 100%;
+
+      .deaths-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+
+      .deaths-chart {
+        padding: 2rem;
+  
+        canvas {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  .demographic-charts {
+
+  }
+}
+
+.beat-loader {
+  width: 100%;
+  margin-top: 30vh;
+  text-align: center;
+}
