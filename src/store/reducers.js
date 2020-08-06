@@ -8,7 +8,7 @@ import {
 } from './types';
 
 const initialBaseState = {
-  loading: false
+  loading: true
 };
 
 export const baseReducer = (state = initialBaseState, action) => {
