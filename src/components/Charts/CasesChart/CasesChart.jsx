@@ -47,7 +47,7 @@ const CasesChart = () => {
               },
               zoom: {
                 enabled: true,
-                // mode: 'x'
+                mode: 'xy'
               },
               scales: {
                 xAxes: [{
