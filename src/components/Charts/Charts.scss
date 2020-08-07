@@ -4,12 +4,17 @@
   width: 100%;
   background: $secondary-dark-color;
   margin: 2rem 4rem;
+  display: flex;
+  height: 100vh;
 
   .time-charts {
-    width: 100%;
+    width: 60%;
+    border-right: 10px solid $primary-dark-color;
+    overflow-y: scroll;
 
     .cases-chart-container {
       width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
   
       .cases-chart-title {
         padding: 0 2rem;
@@ -18,9 +23,11 @@
   
       .cases-chart {
         padding: 2rem;
+        // min-height: 40vh;
   
         canvas {
           width: 100% !important;
+          min-height: 40vh !important;
         }
       }
     }
@@ -38,13 +45,85 @@
   
         canvas {
           width: 100% !important;
+          min-height: 40vh !important;
         }
       }
     }
   }
 
   .demographic-charts {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
 
+    .age-chart-container {
+      width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
+  
+      .age-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .age-charts {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        // overflow-y: scroll;
+        // height: calc((100vh - (3 * ((1.5 * 2.2rem) + 1.2rem + 1px + (2 * 2rem))) - (2 * 10px)) / 3);
+
+        .age-chart {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .sex-chart-container {
+      width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
+  
+      .sex-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .sex-charts {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        // overflow-y: scroll;
+        // height: calc((100vh - (3 * ((1.5 * 2.2rem) + 1.2rem + 1px + (2 * 2rem))) - (2 * 10px)) / 3);
+
+        .sex-chart {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .ethnicity-chart-container {
+      width: 100%;
+  
+      .ethnicity-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .ethnicity-charts {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        // overflow-y: scroll;
+        // height: calc((100vh - (3 * ((1.5 * 2.2rem) + 1.2rem + 1px + (2 * 2rem))) - (2 * 10px)) / 3);
+
+        .ethnicity-chart {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
 }
 
@@ -52,4 +131,25 @@
   width: 100%;
   margin-top: 30vh;
   text-align: center;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .charts {
+    flex-direction: column;
+    height: auto;
+    
+    .time-charts {
+      width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
+
+      .cases-chart-container>.cases-chart>canvas,
+      .deaths-chart-container>.deaths-chart>canvas {
+        min-height: 0 !important;
+      }
+    }
+
+    .demographic-charts {
+      width: 100%;
+    }
+  }
 }

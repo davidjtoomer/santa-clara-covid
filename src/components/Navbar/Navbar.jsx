@@ -10,10 +10,6 @@ const Navbar = () => {
       </div>
       <div className='navbar-links'>
         <NavbarButton
-          text = 'About' 
-          href = '#statistics'
-        />
-        <NavbarButton
           text = 'Data' 
           href = 'https://data.ca.gov/dataset/covid-19-cases'
           target = '_blank'
