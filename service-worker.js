@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/santa-clara-covid/precache-manifest.69b398b9aabd85a2b28bd825ca33154f.js"
+  "/santa-clara-covid/precache-manifest.a21825c41545d8c514fc048135e7b7e5.js"
 );
 
 self.addEventListener('message', (event) => {
