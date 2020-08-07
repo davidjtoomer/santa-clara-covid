@@ -5,12 +5,12 @@
   background: $secondary-dark-color;
   margin: 2rem 4rem;
   display: flex;
+  height: 100vh;
 
   .time-charts {
     width: 60%;
-    overflow-x: hidden;
-    overflow-y: auto;
     border-right: 10px solid $primary-dark-color;
+    overflow-y: scroll;
 
     .cases-chart-container {
       width: 100%;
@@ -23,9 +23,11 @@
   
       .cases-chart {
         padding: 2rem;
+        // min-height: 40vh;
   
         canvas {
           width: 100% !important;
+          min-height: 40vh !important;
         }
       }
     }
@@ -43,6 +45,7 @@
   
         canvas {
           width: 100% !important;
+          min-height: 40vh !important;
         }
       }
     }
@@ -52,6 +55,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 
     .age-chart-container {
       width: 100%;
@@ -66,6 +70,8 @@
         padding: 2rem;
         display: flex;
         flex-direction: column;
+        // overflow-y: scroll;
+        // height: calc((100vh - (3 * ((1.5 * 2.2rem) + 1.2rem + 1px + (2 * 2rem))) - (2 * 10px)) / 3);
 
         .age-chart {
           width: 100%;
@@ -87,6 +93,8 @@
         padding: 2rem;
         display: flex;
         flex-direction: column;
+        // overflow-y: scroll;
+        // height: calc((100vh - (3 * ((1.5 * 2.2rem) + 1.2rem + 1px + (2 * 2rem))) - (2 * 10px)) / 3);
 
         .sex-chart {
           width: 100%;
@@ -107,6 +115,8 @@
         padding: 2rem;
         display: flex;
         flex-direction: column;
+        // overflow-y: scroll;
+        // height: calc((100vh - (3 * ((1.5 * 2.2rem) + 1.2rem + 1px + (2 * 2rem))) - (2 * 10px)) / 3);
 
         .ethnicity-chart {
           width: 100%;

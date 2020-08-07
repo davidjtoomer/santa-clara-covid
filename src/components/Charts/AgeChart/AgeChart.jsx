@@ -8,7 +8,7 @@ const AgeChart = () => {
   return (
     <div className='age-chart-container'>
       <div className='age-chart-title'>
-        <h5>Age (All CA)</h5>
+        <h5>Age (All–CA)</h5>
       </div>
       {age_data &&
         <div className='age-charts'>
