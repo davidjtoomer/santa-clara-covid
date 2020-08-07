@@ -2,30 +2,28 @@ import React from 'react';
 import {useSelector} from 'react-redux';
 import {Doughnut} from 'react-chartjs-2';
 
-const AgeChart = () => {
-  const age_data = useSelector(state => state.data.age);
+const SexChart = () => {
+  const sex_data = useSelector(state => state.data.sex);
 
   return (
-    <div className='age-chart-container'>
-      <div className='age-chart-title'>
-        <h5>Age (All CA)</h5>
+    <div className='sex-chart-container'>
+      <div className='sex-chart-title'>
+        <h5>Sex (All CA)</h5>
       </div>
-      {age_data &&
-        <div className='age-charts'>
-          <div className='age-chart'>
+      {sex_data &&
+        <div className='sex-charts'>
+          <div className='sex-chart'>
             <Doughnut
               data = {{
-                labels: age_data.labels,
+                labels: sex_data.labels,
                 datasets: [
                   {
                     label: 'Cases',
-                    data: age_data.total_confirmed,
+                    data: sex_data.total_confirmed,
                     backgroundColor: [
-                      '#f3f5f4',
-                      '#f4d44d',
+                      '#a9a9a9',
                       '#82c9e6',
-                      '#f45060',
-                      '#a9a9a9'
+                      '#f3f5f4'
                     ],
                     borderColor: '#f3f5f4',
                     borderWidth: 1
@@ -44,20 +42,18 @@ const AgeChart = () => {
               }}
             />
           </div>
-          <div className='age-chart'>
+          <div className='sex-chart'>
             <Doughnut
               data = {{
-                labels: age_data.labels,
+                labels: sex_data.labels,
                 datasets: [
                   {
                     label: 'Deaths',
-                    data: age_data.total_deaths,
+                    data: sex_data.total_deaths,
                     backgroundColor: [
-                      '#f3f5f4',
-                      '#f4d44d',
+                      '#a9a9a9',
                       '#82c9e6',
-                      '#f45060',
-                      '#a9a9a9'
+                      '#f3f5f4'
                     ],
                     borderColor: '#f3f5f4',
                     borderWidth: 1
@@ -82,4 +78,4 @@ const AgeChart = () => {
   );
 };
 
-export default AgeChart;
+export default SexChart;

@@ -4,6 +4,7 @@ import {fetchAllData} from '../../store/actions';
 import CasesChart from './CasesChart/CasesChart';
 import DeathsChart from './DeathsChart/DeathsChart';
 import AgeChart from './AgeChart/AgeChart';
+import SexChart from './SexChart/SexChart';
 import {BeatLoader} from 'react-spinners';
 import './Charts.scss'
 
@@ -25,6 +26,7 @@ const Charts = () => {
             </div>
             <div className='demographic-charts'>
               <AgeChart/>
+              <SexChart/>
             </div>
           </div>
         : <div className='beat-loader'>

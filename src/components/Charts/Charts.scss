@@ -73,6 +73,47 @@
         }
       }
     }
+
+    .sex-chart-container {
+      width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
+  
+      .sex-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .sex-charts {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .sex-chart {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .ethnicity-chart-container {
+      width: 100%;
+  
+      .ethnicity-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .ethnicity-charts {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .ethnicity-chart {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
 }
 
