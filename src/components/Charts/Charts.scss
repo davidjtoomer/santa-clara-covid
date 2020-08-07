@@ -132,3 +132,24 @@
   margin-top: 30vh;
   text-align: center;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .charts {
+    flex-direction: column;
+    height: auto;
+    
+    .time-charts {
+      width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
+
+      .cases-chart-container>.cases-chart>canvas,
+      .deaths-chart-container>.deaths-chart>canvas {
+        min-height: 0 !important;
+      }
+    }
+
+    .demographic-charts {
+      width: 100%;
+    }
+  }
+}
