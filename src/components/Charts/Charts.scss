@@ -4,12 +4,17 @@
   width: 100%;
   background: $secondary-dark-color;
   margin: 2rem 4rem;
+  display: flex;
 
   .time-charts {
-    width: 100%;
+    width: 60%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 10px solid $primary-dark-color;
 
     .cases-chart-container {
       width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
   
       .cases-chart-title {
         padding: 0 2rem;
@@ -44,7 +49,30 @@
   }
 
   .demographic-charts {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
 
+    .age-chart-container {
+      width: 100%;
+      border-bottom: 10px solid $primary-dark-color;
+  
+      .age-chart-title {
+        padding: 0 2rem;
+        border-bottom: 1px solid $primary-light-color;
+      }
+  
+      .age-charts {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .age-chart {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
 }
 

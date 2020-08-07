@@ -3,6 +3,7 @@ import {useSelector, useDispatch} from 'react-redux';
 import {fetchAllData} from '../../store/actions';
 import CasesChart from './CasesChart/CasesChart';
 import DeathsChart from './DeathsChart/DeathsChart';
+import AgeChart from './AgeChart/AgeChart';
 import {BeatLoader} from 'react-spinners';
 import './Charts.scss'
 
@@ -23,6 +24,7 @@ const Charts = () => {
               <DeathsChart/>
             </div>
             <div className='demographic-charts'>
+              <AgeChart/>
             </div>
           </div>
         : <div className='beat-loader'>
