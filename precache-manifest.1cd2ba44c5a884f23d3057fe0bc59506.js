@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36e5944be18a7bc1798a8211ee4a4bff",
+    "revision": "70224b463ae6be3b3738a01d4f35ae76",
     "url": "/santa-clara-covid/index.html"
   },
   {
