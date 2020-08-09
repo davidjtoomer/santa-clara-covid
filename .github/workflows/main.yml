@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy to Github Pages
 on:
   push:
     branches: [ master ]
@@ -10,14 +10,11 @@ jobs:
       with:
         persist-credentials: false
 
-    - name: Install and Build
+    - name: Config
+      run: 
+        git config user.name "davidjtoomer" && git config user.email "djtoomer22@gmail.com"
+    
+    - name: Install and Deploy
       run: |
         npm install
-        npm run build
-      
-    - name: Deploy
-      uses: davidjtoomer/santa-clara-covid
-      with:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        BRANCH: gh-pages
-        FOLDER: build
+        npm run deploy
