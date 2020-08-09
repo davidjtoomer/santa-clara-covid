@@ -15,7 +15,7 @@ const Charts = () => {
 
   useEffect(() => {
     dispatch(fetchAllData());
-  }, []);
+  }, [dispatch]);
 
   return (
     <React.Fragment>
