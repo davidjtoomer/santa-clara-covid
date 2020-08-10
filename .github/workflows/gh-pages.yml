@@ -18,9 +18,9 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name ${{secrets.GITHUB_USERNAME}}
-          git config --global user.email ${{secrets.GITHUB_EMAIL}}
-          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/${{secrets.GITHUB_USERNAME}}/santa-clara-covid.git
+          git config --global user.name "davidjtoomer"
+          git config --global user.email "djtoomer22@gmail.com"
+          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/davidjtoomer/santa-clara-covid.git
 
       - name: Deploy to Github Pages
         run:
