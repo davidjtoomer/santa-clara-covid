@@ -65,6 +65,9 @@ const CasesChart = () => {
                   position: 'left',
                   gridLines: {
                     color: '#1e2130'
+                  },
+                  ticks: {
+                    fontColor: '#82c9e6'
                   }
                 }, {
                   id: 'cumulative',
@@ -72,6 +75,9 @@ const CasesChart = () => {
                   position: 'right',
                   gridLines: {
                     color: '#1e2130'
+                  },
+                  ticks: {
+                    fontColor: '#f45060'
                   }
                 }]
               }
