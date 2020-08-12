@@ -65,6 +65,9 @@ const DeathsChart = () => {
                   position: 'left',
                   gridLines: {
                     color: '#1e2130'
+                  },
+                  ticks: {
+                    fontColor: '#f4d44d'
                   }
                 }, {
                   id: 'cumulative',
@@ -72,6 +75,9 @@ const DeathsChart = () => {
                   position: 'right',
                   gridLines: {
                     color: '#1e2130'
+                  },
+                  ticks: {
+                    fontColor: '#f45060'
                   }
                 }]
               }
