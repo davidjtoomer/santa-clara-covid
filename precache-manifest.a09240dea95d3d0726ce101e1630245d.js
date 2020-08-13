@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/santa-clara-covid/static/js/2.52a607ca.chunk.js"
   },
   {
-    "revision": "2b6fc064859cfb5b8f37ec79dd56eeb4",
+    "revision": "62d4c7d1d11c391f96ba4a38f42d582a",
     "url": "/santa-clara-covid/static/js/2.52a607ca.chunk.js.LICENSE.txt"
   },
   {
