@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/santa-clara-covid/static/css/main.e7acdb92.chunk.css",
-    "main.js": "/santa-clara-covid/static/js/main.713475d2.chunk.js",
-    "main.js.map": "/santa-clara-covid/static/js/main.713475d2.chunk.js.map",
-    "runtime-main.js": "/santa-clara-covid/static/js/runtime-main.9f2c59df.js",
-    "runtime-main.js.map": "/santa-clara-covid/static/js/runtime-main.9f2c59df.js.map",
-    "static/js/2.f5fff624.chunk.js": "/santa-clara-covid/static/js/2.f5fff624.chunk.js",
-    "static/js/2.f5fff624.chunk.js.map": "/santa-clara-covid/static/js/2.f5fff624.chunk.js.map",
+    "main.css": "/santa-clara-covid/static/css/main.1a92d25a.chunk.css",
+    "main.js": "/santa-clara-covid/static/js/main.87d7d21f.chunk.js",
+    "main.js.map": "/santa-clara-covid/static/js/main.87d7d21f.chunk.js.map",
+    "runtime-main.js": "/santa-clara-covid/static/js/runtime-main.87cdbf7b.js",
+    "runtime-main.js.map": "/santa-clara-covid/static/js/runtime-main.87cdbf7b.js.map",
+    "static/js/2.375d15aa.chunk.js": "/santa-clara-covid/static/js/2.375d15aa.chunk.js",
+    "static/js/2.375d15aa.chunk.js.map": "/santa-clara-covid/static/js/2.375d15aa.chunk.js.map",
     "index.html": "/santa-clara-covid/index.html",
-    "precache-manifest.eafda717a2e3c11e52e585291c185c78.js": "/santa-clara-covid/precache-manifest.eafda717a2e3c11e52e585291c185c78.js",
-    "service-worker.js": "/santa-clara-covid/service-worker.js",
-    "static/css/main.e7acdb92.chunk.css.map": "/santa-clara-covid/static/css/main.e7acdb92.chunk.css.map",
-    "static/js/2.f5fff624.chunk.js.LICENSE.txt": "/santa-clara-covid/static/js/2.f5fff624.chunk.js.LICENSE.txt"
+    "static/css/main.1a92d25a.chunk.css.map": "/santa-clara-covid/static/css/main.1a92d25a.chunk.css.map",
+    "static/js/2.375d15aa.chunk.js.LICENSE.txt": "/santa-clara-covid/static/js/2.375d15aa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f2c59df.js",
-    "static/js/2.f5fff624.chunk.js",
-    "static/css/main.e7acdb92.chunk.css",
-    "static/js/main.713475d2.chunk.js"
+    "static/js/runtime-main.87cdbf7b.js",
+    "static/js/2.375d15aa.chunk.js",
+    "static/css/main.1a92d25a.chunk.css",
+    "static/js/main.87d7d21f.chunk.js"
   ]
 }
