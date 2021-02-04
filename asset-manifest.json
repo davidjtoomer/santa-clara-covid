@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/santa-clara-covid/static/css/main.1a92d25a.chunk.css",
-    "main.js": "/santa-clara-covid/static/js/main.6db0d52a.chunk.js",
-    "main.js.map": "/santa-clara-covid/static/js/main.6db0d52a.chunk.js.map",
-    "runtime-main.js": "/santa-clara-covid/static/js/runtime-main.360e9400.js",
-    "runtime-main.js.map": "/santa-clara-covid/static/js/runtime-main.360e9400.js.map",
-    "static/js/2.84369948.chunk.js": "/santa-clara-covid/static/js/2.84369948.chunk.js",
-    "static/js/2.84369948.chunk.js.map": "/santa-clara-covid/static/js/2.84369948.chunk.js.map",
+    "main.js": "/santa-clara-covid/static/js/main.c3f59377.chunk.js",
+    "main.js.map": "/santa-clara-covid/static/js/main.c3f59377.chunk.js.map",
+    "runtime-main.js": "/santa-clara-covid/static/js/runtime-main.3efd6cd7.js",
+    "runtime-main.js.map": "/santa-clara-covid/static/js/runtime-main.3efd6cd7.js.map",
+    "static/js/2.00ea08cd.chunk.js": "/santa-clara-covid/static/js/2.00ea08cd.chunk.js",
+    "static/js/2.00ea08cd.chunk.js.map": "/santa-clara-covid/static/js/2.00ea08cd.chunk.js.map",
     "index.html": "/santa-clara-covid/index.html",
     "static/css/main.1a92d25a.chunk.css.map": "/santa-clara-covid/static/css/main.1a92d25a.chunk.css.map",
-    "static/js/2.84369948.chunk.js.LICENSE.txt": "/santa-clara-covid/static/js/2.84369948.chunk.js.LICENSE.txt"
+    "static/js/2.00ea08cd.chunk.js.LICENSE.txt": "/santa-clara-covid/static/js/2.00ea08cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.360e9400.js",
-    "static/js/2.84369948.chunk.js",
+    "static/js/runtime-main.3efd6cd7.js",
+    "static/js/2.00ea08cd.chunk.js",
     "static/css/main.1a92d25a.chunk.css",
-    "static/js/main.6db0d52a.chunk.js"
+    "static/js/main.c3f59377.chunk.js"
   ]
 }
