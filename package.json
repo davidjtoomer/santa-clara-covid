@@ -10,7 +10,7 @@
     "chart.js": "^2.9.4",
     "chartjs-plugin-zoom": "^0.7.7",
     "gh-pages": "^3.1.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.2",
